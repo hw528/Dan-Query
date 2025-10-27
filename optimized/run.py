@@ -534,7 +534,7 @@ def execute_with_aggregation(query: Dict, table_name: str, plan: Dict,
     timing['filtering'] = 0  # Filtering done during read!
     
     # Apply grouping if needed (using hierarchy!)
-    if plan['needs_grouping']:
+    if plan['needs_grouping'] and plan['group_by']:
         t0 = time.perf_counter()
         group_cols = plan['group_by']
         
