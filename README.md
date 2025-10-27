@@ -1,7 +1,6 @@
 # Dan-Query
 
-This repository provides an optimized pipeline for preparing data and running the final query process for the Dan-Query challenge.
-
+2nd place for CalHacks 12.0 Query Planner Challenge
 ---
 
 ## Project Overview
